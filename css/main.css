@@ -74,7 +74,7 @@ header{
 nav{
     width: 100%;
     float: left;
-    background: #813772;
+    background: #facc2e;
     border: solid #f5f6fa 8px;
 }
 nav>ul{
@@ -86,8 +86,9 @@ nav li{
     padding: 10px;
 }
 .link a {
-    color: #FDF3E7;
+    color: #2d3436;
     height: 40px;
+    text-decoration: none;
 }
 .top{
     border-bottom: 8px solid #FDF3E7;
@@ -119,17 +120,28 @@ main{
     float: left;
     width:100%;
 }
+.third{
+    float: left;
+    width:100%;
+}
+.fourth{
+    float: left;
+    width:100%;
+}
 p{
-    color: black;
+    color: white;
     /*background: #FDF3E7;*/
     padding-left: 2vw;
     padding-bottom: 1vh;
     padding-top: 1vh;
 }
-.col img{
-    width: 100%;
-    height: auto;
-    max-width: 100%;
+.second li{
+    color: #FFFFFF;
+    margin-left: 5%;
+}
+.contact{
+    float: left;
+    text-align: center;
 }
 footer{
     width: 100%;
@@ -160,7 +172,7 @@ footer{
 /********************First Media Query********************/
 
 
-@media screen and (min-width:600px){
+@media screen and (min-width:950px){
     #image{
         float: left;
         display: inline-flex;
@@ -216,7 +228,6 @@ footer{
     h2{
         height: 130px;
     }
-
     #sec{
         margin-left: 4px;
     }
@@ -241,56 +252,14 @@ footer{
 /********************Second Media Query********************/
 
 
-
-@media screen and (min-width: 800px){
-
+@media screen and (min-width: 1200px){
     nav{
         border: none;
-    }
-    .col img{
-        width:50%;
     }
     footer{
         width: 100%;
         float: left;
         margin: 0;
-    }
-
-
-}
-
-/********************Third Media Query********************/
-
-
-@media screen and (min-width: 1200px){
-    /*
-        h1{
-         background: url("http://loremflickr.com/4000/320/computer");
-        }
-    */
-    nav{
-        margin-top: 8px;
-        width: 29%;
-        height: 450px;
-        margin-left: 0px;
-        margin-right: 10px;
-        background: #e1b12c;
-
-    }
-    nav a {
-        height: 100%;
-    }
-    nav li{
-        padding-top: 10px;
-        margin-top: 10px;
-        width: 100%;
-    }
-    main{
-        width: 70%;
-        margin: 0;
-    }
-    .col img{
-        width:55%;
     }
     .para1{
         margin-right: 4px;
