@@ -23,31 +23,31 @@ html{
     font-size: 1rem;
     line-height: 1.6;
     font-family: bitter, helvetica, arial, sans-serif;
-    background: #803971;
+    background: #09304e;
 }
-/***************************
+/*************************** 803971
 DEFAULTS - MOBILE FIRST
 ***************************/
 header{
     height: 30vh;
 }
 #picture{
-    background: #09304e;
+    background: #803971;
     width: 100%;
     height: 100%;
 }
 #title{
     text-align: center;
     color: #FFFFFF;
-    padding-top: 10vh;
+    padding-top: 7vh;
+    font-size: 4em;
 }
 #job{
     text-align: center;
     color: #FFFFFF;
 }
 #crop{
-    margin-top: -10vh;
-    margin-left: 10vw;
+    margin-left: 50vw;
     height: 20vh;
     width: 25vh;
     overflow: hidden;
@@ -62,12 +62,13 @@ header{
     width: 30vh;
 }
 #content{
-    margin-top: 15vh;
+    margin-top: 10vh;
+    padding-top: 10vh;
 }
 .construction{
     width: 100%;
-    text-align: center;
     color: #FFFFFF;
+    text-align: center;
 }
 main{
     align-content: center;
@@ -98,10 +99,16 @@ li, p, a{
         height: 100%;
     }
     #title{
-        padding-top: 10vh;
+        padding-top: 7vh;
     }
     #job{
 
+    }
+    #content{
+        margin: auto;
+        width: 100%;
+        background: #EAEAEA;
+        height: 60vh;
     }
     .construction{
         color: black;
