@@ -1,0 +1,301 @@
+/**************************************************
+Fonts
+Droid Serif
+Droid Sans
+Droid Sans Mono
+Font Scaling
+6.854rem
+4.236rem
+2.618rem
+1.618rem
+1.0rem
+0.618rem
+Colour scheme
+**************************************************/
+@import 'https://fonts.googleapis.com/css?family=Droid+Sans|Droid+Sans+Mono|Droid+Serif';
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 1rem;
+    line-height: 1.6;
+    font-family: bitter, helvetica, arial, sans-serif;
+    background: #000000;
+}
+/***************************
+DEFAULTS - MOBILE FIRST
+***************************/
+h1{
+    font: bold 4.236rem raleway, helvetica, arial, sans-serif;
+    width: 100%;
+    text-align: center;
+    /*    background: url("http://loremflickr.com/1200/220/programming");*/
+    border: none;
+    color: #FFFFFF;
+    height: 220px;
+    padding-bottom: 20px;
+    padding-top: 60px;
+    margin-top: 0.2em;
+    letter-spacing: 3px;
+}
+.logo{
+    height: 10%;
+    width: 10%;
+}
+h2{
+    font: bold 2.618rem raleway, helvetica, arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #062F4F;
+    color: #f5f6fa;
+    margin-bottom: 0.2em;
+    margin-top: 0.2em;
+}
+li, p, a{
+    font: bold 1.618rem 'Droid Sans', sans-serif;
+}
+/***************************
+    LAYOUT - MOBILE FIRST
+***************************/
+.wrapper{
+    width: 95%;
+    margin: 0 auto;
+}
+header{
+    width: 100%;
+}
+.logo{
+    height: 10%;
+    width: 10%;
+}
+nav{
+    width: 100%;
+    float: left;
+    background: #813772;
+    border: solid #f5f6fa 8px;
+}
+nav>ul{
+    width: 100%;
+}
+nav li{
+    width: 100%;
+    list-style: none;
+    padding: 10px;
+}
+.link a {
+    color: #FDF3E7;
+    height: 40px;
+}
+.top{
+    border-bottom: 8px solid #FDF3E7;
+    color: #7E8F7C;
+}
+nav a,
+nav a:link,
+nav a:visited{
+    display: block;
+    font: bold 1.618rem 'Droid Sans', 'more font stack stuff', sans-serif;
+    text-align: center;
+}
+nav a:active,
+nav a:focus,
+nav a:hover{
+    transition-duration: 0.5s;
+    padding-top: 5px;
+    width: 100%;
+    color: #000000;
+}
+main{
+    width: 100%;
+}
+.first{
+    float: left;
+    width: 100%;
+}
+.second{
+    float: left;
+    width:100%;
+}
+p{
+    color: black;
+    /*background: #FDF3E7;*/
+    padding-left: 2vw;
+    padding-bottom: 1vh;
+    padding-top: 1vh;
+}
+.col img{
+    width: 100%;
+    height: auto;
+    max-width: 100%;
+}
+footer{
+    width: 100%;
+    background: #1A2930;
+    height: 30%;
+    float: left;
+}
+.footer a{
+    color: #7E8F7C;
+    font-size: 0.618rem;
+}
+.footer{
+    background: #3B3738;
+    height: 30%;
+    color: #FFFFFF;
+    float: left;
+    list-style: none;
+    text-align: center;
+    padding-top: 1vh;
+    font-size: 0.618rem;
+    padding-bottom: 10px;
+    width:25%;
+}
+
+
+
+
+/********************First Media Query********************/
+
+
+@media screen and (min-width:600px){
+    #image{
+        float: left;
+        display: inline-flex;
+        padding-right: 0.5em;
+        padding-bottom: 10px;
+        width: 60%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+        display: inline;
+    }
+    .logo{
+        height: 10%;
+        width: 10%;
+    }
+    .wrapper{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    header{
+        margin: 0;
+        padding: 0;
+    }
+    nav{
+        width: 90%;
+        margin-left: 5%;
+        margin-right: 5%;
+        border: none;
+    }
+    nav li{
+        width: 20%;
+        float: left;
+        padding-bottom: 32px;
+    }
+    nav a{
+        text-decoration: none;
+    }
+    .top{
+        border:none;
+    }
+
+    main{
+        width:90%;
+        float: left;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    h1{
+        padding-top: 0.8em;
+    }
+    h2{
+        height: 130px;
+    }
+
+    #sec{
+        margin-left: 4px;
+    }
+    .first{
+        height: 650px;
+    }
+    article{
+        height: 500px;
+    }
+    .col img{
+        width: 60%;
+    }
+    footer{
+        width: 90%;
+        height: 100%;
+        background:#3B3738;
+        margin-left: 5%;
+    }
+}
+
+
+/********************Second Media Query********************/
+
+
+
+@media screen and (min-width: 800px){
+
+    nav{
+        border: none;
+    }
+    .col img{
+        width:50%;
+    }
+    footer{
+        width: 100%;
+        float: left;
+        margin: 0;
+    }
+
+
+}
+
+/********************Third Media Query********************/
+
+
+@media screen and (min-width: 1200px){
+    /*
+        h1{
+         background: url("http://loremflickr.com/4000/320/computer");
+        }
+    */
+    nav{
+        margin-top: 8px;
+        width: 29%;
+        height: 450px;
+        margin-left: 0px;
+        margin-right: 10px;
+        background: #e1b12c;
+
+    }
+    nav a {
+        height: 100%;
+    }
+    nav li{
+        padding-top: 10px;
+        margin-top: 10px;
+        width: 100%;
+    }
+    main{
+        width: 70%;
+        margin: 0;
+    }
+    .col img{
+        width:55%;
+    }
+    .para1{
+        margin-right: 4px;
+    }
+    .para2{
+        margin-left: 4px;
+    }
+}
