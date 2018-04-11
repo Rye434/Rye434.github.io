@@ -32,7 +32,10 @@ header{
     height: 30vh;
 }
 #picture{
-    background: #803971;
+    background-image: url("../img/marc-olivier-jodoin-487479-unsplash.jpg");
+    background-position: center top;
+    background-size: 120%;
+    position: relative;
     width: 100%;
     height: 100%;
 }
@@ -40,7 +43,7 @@ header{
     text-align: center;
     color: #FFFFFF;
     padding-top: 7vh;
-    font-size: 4em;
+    font-size: 2em;
 }
 #job{
     text-align: center;
@@ -64,6 +67,8 @@ header{
 #content{
     margin-top: 10vh;
     padding-top: 10vh;
+    padding: 5vw;
+    height: 70vh;
 }
 .construction{
     width: 100%;
@@ -87,19 +92,21 @@ li, p, a{
 
 
 @media screen and (min-width:950px){
-    html{
-        background: #FFFFFF;
-    }
     header{
-        height: 40vh;
+        height: 50vh;
+        position: relative;
     }
     #picture{
-        background: url("https://picsum.photos/g/1280/720?image=166");
+        background-image: url("../img/marc-olivier-jodoin-487479-unsplash.jpg");
+        background-position: center top;
+        background-size: 120%;
+        position: relative;
         width: 100%;
         height: 100%;
     }
     #title{
-        padding-top: 7vh;
+        padding-top: 15vh;
+        font-size: 4em;
     }
     #job{
 
@@ -107,11 +114,9 @@ li, p, a{
     #content{
         margin: auto;
         width: 100%;
-        background: #EAEAEA;
         height: 60vh;
     }
     .construction{
-        color: black;
     }
 }
 
