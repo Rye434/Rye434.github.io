@@ -53,7 +53,6 @@ header{
     overflow: hidden;
     position: absolute;
     border-radius: 2px;
-    border: solid black 5px;
 }
 #Riley{
     background: url("../img/IMG_1500.png");
