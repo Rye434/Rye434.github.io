@@ -74,7 +74,7 @@ header{
 nav{
     width: 100%;
     float: left;
-    background: #facc2e;
+    background: #813772;
     border: solid #f5f6fa 8px;
 }
 nav>ul{
@@ -86,7 +86,7 @@ nav li{
     padding: 10px;
 }
 .link a {
-    color: #2d3436;
+    color: #FFFFFF;
     height: 40px;
     text-decoration: none;
 }
@@ -129,7 +129,7 @@ main{
     width:100%;
 }
 p{
-    color: white;
+    color: #FFFFFF;
     /*background: #FDF3E7;*/
     padding-left: 2vw;
     padding-bottom: 1vh;
@@ -145,7 +145,7 @@ p{
 }
 footer{
     width: 100%;
-    background: #1A2930;
+    background: #3B3738;
     height: 30%;
     float: left;
 }
@@ -199,9 +199,7 @@ footer{
         padding: 0;
     }
     nav{
-        width: 90%;
-        margin-left: 5%;
-        margin-right: 5%;
+        width: 100%;
         border: none;
     }
     nav li{
@@ -217,10 +215,7 @@ footer{
     }
 
     main{
-        width:90%;
         float: left;
-        margin-left: 5%;
-        margin-right: 5%;
     }
     h1{
         padding-top: 0.8em;
